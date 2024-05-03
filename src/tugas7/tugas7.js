@@ -6,9 +6,9 @@ function Tugas7(props) {
       <h1>Data diri peserta kelas Reactjs</h1>
       <hr />
       <ul>
-        <li>Nama: {props.name}</li>
-        <li>Kelas: {props.kelas}</li>
-        <li>Email: {props.email}</li>
+        <li><b>Nama Lengkap:</b> {props.name}</li>
+        <li><b>Kelas:</b> {props.kelas}</li>
+        <li><b>Email:</b> {props.email}</li>
       </ul>
     </div>
   );
