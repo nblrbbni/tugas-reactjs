@@ -1,5 +1,7 @@
-.App {
-  text-align: center;
+.Content {
+  padding: 20px;
+  margin: 5rem 30rem;
+  box-shadow: 2px 3px 5px #888888;
 }
 
 .App-logo {
@@ -32,6 +34,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
